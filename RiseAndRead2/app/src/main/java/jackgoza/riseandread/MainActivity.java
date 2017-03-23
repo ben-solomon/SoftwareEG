@@ -133,6 +133,11 @@ public class MainActivity extends AppCompatActivity implements AlarmFragment.OnF
      * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
      * one of the sections/tabs/pages.
      */
+        
+          // Kinda curious what these 'fragments' you speak of are, will look it up. -BS
+          // Can fragments access variables from the activities they are launched in?? (Scope)
+          // its been a PITA passing data between activities using tags. -BS
+                
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
         private JSONArray linkArray;
