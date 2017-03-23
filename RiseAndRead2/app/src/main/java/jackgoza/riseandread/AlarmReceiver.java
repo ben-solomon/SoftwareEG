@@ -15,6 +15,8 @@ import android.widget.Toast;
 public class AlarmReceiver extends WakefulBroadcastReceiver {
 
     @Override
+    // this is pretty neat, is playing the alarm tone as a Ringtone the easiest way to perform audio playback natively? Were
+    // there other reasons for this approach? -BS
     public void onReceive(final Context context, Intent intent) {
 
         //this will sound the alarm tone
